@@ -44,6 +44,9 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="deps\simdjson.cpp">
+      <Filter>deps</Filter>
+    </ClCompile>
     <ClCompile Include="src\base64.cpp">
       <Filter>src</Filter>
     </ClCompile>

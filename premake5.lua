@@ -11,7 +11,8 @@ project "FastGLTF"
         "src/**.cpp",
         "src/**.ixx",
         "include/**.hpp",
-        "deps/simdjson.h"
+        "deps/simdjson.h",
+        "deps/simdjson.cpp"
     }
 
     includedirs {
